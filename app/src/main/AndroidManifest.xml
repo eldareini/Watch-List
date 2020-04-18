@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="example.com.eldareini.eldarmovieapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/negative_film"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/negative_film_round"
+        android:theme="@style/Theme.AppCompat.Light">
+        <activity android:name=".activities.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".fragments.SeasonsFragment" />
+        <activity android:name=".activities.MediaActivity" />
+        <activity
+            android:name=".activities.ImagesDialogActivity"
+            android:theme="@style/Theme.UserDialog" />
+        <activity
+            android:name=".activities.YoutubeDialogActivity"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".activities.CastAndCrewActivity"
+            android:label="@string/title_activity_cast_and_crew"
+            android:theme="@style/Theme.UserDialog" />
+        <activity android:name=".activities.MainActivity" android:windowSoftInputMode="stateHidden">
+
+        </activity>
+    </application>
+
+</manifest>

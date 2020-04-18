@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/searchListView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/search_selector_style">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+
+
+    <ImageView
+        android:id="@+id/searchListImage"
+        android:layout_width="60dp"
+        android:layout_height="60sp"
+        android:src="@mipmap/no_movie"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp">
+
+        <TextView
+            android:id="@+id/searchListTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/searchListMedia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textSize="12sp"
+            android:text="media" />
+
+        <TextView
+            android:id="@+id/searchListYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="year"
+            android:textSize="12sp"
+            android:layout_weight="0" />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/separatorView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom"
+        android:background="@color/backgroundColor"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+</FrameLayout>
+

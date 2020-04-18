@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/imageEpisodeSeason"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/no_movie"
+            android:layout_gravity="center_vertical"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/textEpisodeNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:text="S01E01"/>
+
+        <TextView
+            android:id="@+id/textEpisodeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:text="Title"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:id="@+id/textEpisodeDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="15/05/19"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textEpisodeOverview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:scrollHorizontally="true"
+            android:layout_marginLeft="35dp"
+            android:textColor="@color/cardview_dark_background"
+            android:text="OverviewOverviewOverviewOverviewOverviewOverviewOverviewOverviewOverviewOverviewOverviewOverviewOverviewOverviewOverviewOverviewOverviewOverviewOverviewOverviewOverviewOverview"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

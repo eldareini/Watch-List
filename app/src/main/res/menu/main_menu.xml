@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemListShare"
+        android:icon="@android:drawable/ic_menu_share"
+        android:showAsAction="always"
+        android:title="Shere" />
+    <item
+        android:id="@+id/itemDeleteAllMovies"
+        android:title="Delete all movies" />
+    <item
+        android:id="@+id/itemDeleteAllTv"
+        android:title="Delete all TV Series" />
+    <item
+        android:id="@+id/itemDeleteAll"
+        android:title="Delete all" />
+    <item
+        android:id="@+id/itemExit"
+        android:title="Exit" />
+</menu>

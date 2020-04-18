@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <com.daasuu.bl.BubbleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:padding="10dp"
+        app:bl_arrowDirection="left"
+        app:bl_arrowHeight="15dp"
+        app:bl_arrowWidth="20dp"
+        app:bl_cornersRadius="6dp"
+        app:bl_bubbleColor="@color/backgroundColor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/reviewWriter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="review Writer"
+        android:textSize="13sp"
+        />
+
+    <TextView
+        android:id="@+id/reviewComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="review Comment"
+        android:textSize="16sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:ellipsize="end"
+        android:maxLines="4"
+        android:scrollHorizontally="true"
+        android:textColor="@android:color/black"/>
+    </LinearLayout>
+
+    </com.daasuu.bl.BubbleLayout>
+
+</FrameLayout>

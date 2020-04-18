@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@drawable/search_selector_style">
+
+    <TextView
+        android:id="@+id/textMediaType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:text="Movie"/>
+
+    <ImageView
+        android:id="@+id/imagePoster"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/no_movie"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Title"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:ellipsize="end"/>
+
+    <TextView
+        android:id="@+id/textGenre"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Genre|Genre|Genre|Genre|Genre|Genre|"
+        android:maxLines="1"
+        android:textSize="12sp"
+        android:ellipsize="end"
+        android:gravity="center"/>
+
+
+
+
+</LinearLayout>
