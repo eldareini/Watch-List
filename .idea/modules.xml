@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EldarMovieApp.iml" filepath="$PROJECT_DIR$/EldarMovieApp.iml" group="EldarMovieApp" />
+      <module fileurl="file://$PROJECT_DIR$/Watch-List.iml" filepath="$PROJECT_DIR$/Watch-List.iml" group="Watch-List" />
+      <module fileurl="file://$PROJECT_DIR$/app/Watch-List-app.iml" filepath="$PROJECT_DIR$/app/Watch-List-app.iml" group="Watch-List/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="EldarMovieApp/app" />
     </modules>
   </component>

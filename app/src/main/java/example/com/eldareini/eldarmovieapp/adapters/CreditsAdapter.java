@@ -80,7 +80,7 @@ public class CreditsAdapter extends RecyclerView.Adapter<CreditsAdapter.PeopleHo
 
             textName.setText(credit.getName());
             textPart.setText(credit.getJob());
-            Glide.with(context).load(API_GET_IMAGE + credit.getPosterUrl())
+            Glide.with(context).load(API_GET_IMAGE + credit.getPosterUrl()).centerCrop()
                     .placeholder(R.mipmap.user).error(R.mipmap.user).into(imageCast);
 
         }
